@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Trump Toll</title>
 <style>
   .viz-root {
     color-scheme: light;
@@ -152,12 +158,14 @@
   }
   .footer strong { color: var(--text-secondary); }
 </style>
+</head>
+<body>
 
 <div class="viz-root">
   <div class="wrap">
     <div class="masthead">
-      <h1>Today's tally</h1>
-      <p>Five running costs of the current administration, each pulled from an independent, cited source. Where no true real&#8209;time daily figure exists, the number shown is that source's latest cumulative total divided evenly across the days elapsed &mdash; a daily average, not a live count. That's noted on every tile that uses it.</p>
+      <h1>The Trump Toll</h1>
+      <p>Donald Trump and his family are making millions of dollars every day. Americans are losing money every day &mdash; paying for the cost of his never-ending war with Iran, and the cost of his unnecessary tariffs. Americans are losing health insurance, getting sick, and dying, because money that used to pay for SNAP, health care, and other assistance is going to pay for his tax cuts instead. Every number below links to its original source.</p>
       <span class="asof">Updated daily · last refreshed August 20, 2026</span>
     </div>
 
@@ -198,10 +206,20 @@
         <a class="tile-source" href="https://www.cidrap.umn.edu/measles/us-measles-total-surpasses-1700-cases" target="_blank" rel="noopener">Source: CIDRAP, University of Minnesota ↗</a>
       </div>
 
+      <div class="tile" style="--accent: var(--series-aqua)">
+        <p class="tile-label">Today Americans are losing health coverage, on average</p>
+        <p class="tile-value">~13,700 people</p>
+        <p class="tile-sub">Daily average. National Medicaid/CHIP enrollment fell by 5 million people between April 2025 and April 2026, a 6% drop (KFF analysis of CMS data) &mdash; that total ÷ 365. CBO separately projects the 2025 tax-and-spending law's Medicaid and ACA marketplace cuts will push roughly 15 million more people onto the uninsured rolls by 2034.</p>
+        <a class="tile-source" href="https://www.kff.org/medicaid/medicaid-enrollment-and-unwinding-tracker/" target="_blank" rel="noopener">Source: KFF, Medicaid/CHIP Enrollment Tracker ↗</a>
+      </div>
+
     </div>
 
     <div class="footer">
-      <strong>How to read this page.</strong> The dollar and detention tiles are daily <em>averages</em>: the cited source's latest published cumulative total, divided by the number of days since that total started accruing. None of these sources currently publish a true live day-by-day figure for those categories &mdash; this is the most honest way to express "per day" without inventing numbers. The measles tile is a running year-to-date total, not a daily figure. Every figure links to its original source so you can verify the underlying number yourself. This page refreshes automatically once a day.
+      <strong>How to read this page.</strong> Most tiles are daily <em>averages</em>: the cited source's latest published cumulative total, divided by the number of days since that total started accruing. None of these sources currently publish a true live day-by-day figure for those categories &mdash; this is the most honest way to express "per day" without inventing numbers. The measles tile is a running year-to-date total, not a daily figure. Every figure links to its original source so you can verify the underlying number yourself. This page refreshes automatically once a day.
     </div>
   </div>
 </div>
+
+</body>
+</html>
