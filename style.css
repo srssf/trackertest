@@ -38,7 +38,7 @@ body {
   padding: 28px 20px 0;
 }
 .site-title {
-  font-size: 42px;
+  font-size: 70px;
   font-weight: 800;
   letter-spacing: -0.02em;
   margin: 0;
@@ -75,7 +75,7 @@ body {
   display: block;
   padding: 9px 12px;
   border-radius: 7px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-secondary);
   text-decoration: none;
@@ -96,7 +96,7 @@ body {
   .mobile-menu summary {
     cursor: pointer;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 14px;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -118,7 +118,7 @@ body {
   .mobile-menu li a {
     display: block;
     padding: 9px 12px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--text-secondary);
     text-decoration: none;
@@ -130,7 +130,7 @@ body {
 /* ---------- Masthead (homepage) ---------- */
 .masthead { margin-bottom: 28px; }
 .masthead h1 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0 0 6px;
   letter-spacing: -0.01em;
@@ -138,13 +138,13 @@ body {
 .masthead p {
   margin: 0;
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.5;
 }
 .asof {
   display: inline-block;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -164,8 +164,8 @@ a.tile {
   color: inherit;
   background: var(--surface-1);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 20px 20px 18px;
+  border-radius: 16px;
+  padding: 30px 30px 28px;
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
@@ -183,33 +183,33 @@ a.tile::before {
 }
 
 .tile-label {
-  font-size: 13px;
+  font-size: 18px;
   color: var(--text-secondary);
-  margin: 0 0 10px;
+  margin: 0 0 14px;
   line-height: 1.4;
 }
 
 .tile-value {
-  font-size: 34px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 1.1;
-  margin: 0 0 4px;
+  margin: 0 0 6px;
   letter-spacing: -0.02em;
   font-variant-numeric: proportional-nums;
 }
 
 .tile-value-sub {
-  font-size: 15px;
+  font-size: 21px;
   font-weight: 600;
   color: var(--text-secondary);
-  margin: 10px 0 0;
+  margin: 12px 0 0;
 }
 
 .tile-total {
-  font-size: 13px;
+  font-size: 18px;
   color: var(--text-muted);
-  margin: 10px 0 0;
-  padding-top: 10px;
+  margin: 14px 0 0;
+  padding-top: 14px;
   border-top: 1px solid var(--gridline);
 }
 .tile-total strong { color: var(--text-primary); }
@@ -218,24 +218,24 @@ a.tile::before {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 12.5px;
+  font-size: 14.5px;
   font-weight: 600;
   color: var(--series-blue);
-  margin-top: 12px;
+  margin-top: 16px;
 }
 
 .tile-source {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .footer {
   margin-top: 28px;
   padding-top: 18px;
   border-top: 1px solid var(--gridline);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -246,7 +246,7 @@ a.tile::before {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-secondary);
   text-decoration: none;
@@ -260,7 +260,7 @@ a.tile::before {
   margin-bottom: 32px;
 }
 .detail-eyebrow {
-  font-size: 12.5px;
+  font-size: 14.5px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -268,26 +268,26 @@ a.tile::before {
   margin: 0 0 8px;
 }
 .detail-header h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   margin: 0 0 6px;
   letter-spacing: -0.01em;
 }
 .detail-value {
-  font-size: 44px;
+  font-size: 46px;
   font-weight: 600;
   letter-spacing: -0.02em;
   margin: 12px 0 4px;
 }
 .detail-total {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-secondary);
   margin: 0;
 }
 .detail-total strong { color: var(--text-primary); }
 
 .section-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -301,13 +301,13 @@ a.tile::before {
   border-left: 3px solid var(--accent, var(--series-blue));
   border-radius: 8px;
   padding: 16px 18px;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
   color: var(--text-primary);
   margin: 0 0 8px;
 }
 .quote-cite {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-muted);
   margin: 0 0 20px;
 }
@@ -325,7 +325,7 @@ a.tile::before {
 }
 .source-list li:first-child { border-top: none; }
 .source-list a {
-  font-size: 14.5px;
+  font-size: 16.5px;
   font-weight: 600;
   color: var(--series-blue);
   text-decoration: none;
@@ -333,7 +333,7 @@ a.tile::before {
 .source-list a:hover { text-decoration: underline; }
 .source-list p {
   margin: 4px 0 0;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.5;
 }
@@ -342,7 +342,7 @@ a.tile::before {
   margin-top: 36px;
   padding-top: 16px;
   border-top: 1px solid var(--gridline);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
 }
