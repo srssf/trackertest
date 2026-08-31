@@ -130,7 +130,7 @@ body {
 /* ---------- Masthead (homepage) ---------- */
 .masthead { margin-bottom: 28px; }
 .masthead h1 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   margin: 0 0 6px;
   letter-spacing: -0.01em;
@@ -138,7 +138,7 @@ body {
 .masthead p {
   margin: 0;
   color: var(--text-secondary);
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .asof {
@@ -188,14 +188,14 @@ a.tile::before {
 }
 
 .tile-label {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin: 0 0 12px;
   line-height: 1.4;
 }
 
 .tile-value {
-  font-size: 44px;
+  font-size: 42px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0 0 6px;
@@ -204,7 +204,7 @@ a.tile::before {
 }
 
 .tile-value-sub {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--text-secondary);
   margin: 10px 0 0;
@@ -222,7 +222,7 @@ a.tile::before {
   line-height: 1.4;
 }
 .tile-total-value {
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 2px 0;
@@ -234,7 +234,7 @@ a.tile::before {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--series-blue);
   margin-top: 0;
@@ -262,7 +262,7 @@ a.tile::before {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-secondary);
   text-decoration: none;
@@ -284,26 +284,26 @@ a.tile::before {
   margin: 0 0 8px;
 }
 .detail-header h1 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
   margin: 0 0 6px;
   letter-spacing: -0.01em;
 }
 .detail-value {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 600;
   letter-spacing: -0.02em;
   margin: 12px 0 4px;
 }
 .detail-total {
-  font-size: 15px;
+  font-size: 13px;
   color: var(--text-secondary);
   margin: 0;
 }
 .detail-total strong { color: var(--text-primary); }
 
 .section-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -317,7 +317,7 @@ a.tile::before {
   border-left: 3px solid var(--accent, var(--series-blue));
   border-radius: 8px;
   padding: 14px 16px;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--text-primary);
   margin: 0 0 8px;
@@ -341,7 +341,7 @@ a.tile::before {
 }
 .source-list li:first-child { border-top: none; }
 .source-list a {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--series-blue);
   text-decoration: none;
