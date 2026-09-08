@@ -13,6 +13,7 @@
   --series-yellow:  #eda100;
   --series-red:     #e34948;
   --series-violet:  #4a3aa7;
+  --series-magenta: #e87ba4;
 }
 
 * { box-sizing: border-box; }
@@ -203,12 +204,34 @@ a.tile::before {
   font-variant-numeric: proportional-nums;
 }
 
+.tile-value-secondary {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+  font-variant-numeric: proportional-nums;
+}
+
 .tile-value-sub {
   font-size: 17px;
   font-weight: 600;
   color: var(--text-secondary);
   margin: 10px 0 0;
 }
+
+.tile-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tile-list li {
+  font-size: 14px;
+  color: var(--text-primary);
+  padding: 7px 0;
+  border-top: 1px solid var(--gridline);
+}
+.tile-list li:first-child { border-top: none; }
 
 .tile-total-block {
   margin: 16px 0 0;
@@ -363,3 +386,39 @@ a.tile::before {
   line-height: 1.6;
 }
 .methodology strong { color: var(--text-secondary); }
+
+/* ---------- Criminal Activity sub-category sections ---------- */
+.subcategory {
+  margin: 0 0 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--gridline);
+}
+.subcategory:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.subcategory-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+.subcategory-placeholder {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 0;
+}
+.subcategory-dek {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+.subcategory-links {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 8px 0 0;
+}
+.subcategory-links a { color: var(--series-blue); text-decoration: none; }
+.subcategory-links a:hover { text-decoration: underline; }
