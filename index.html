@@ -9,17 +9,19 @@
 <body>
 
 <header class="site-header">
-  <p class="site-title"><a href="index.html">Today's Toll</a></p>
+  <p class="site-title"><a href="index.html"><span class="word-gray">Today's</span><span class="word-orange">Toll</span></a></p>
 </header>
+<div class="masthead-rule"></div>
+<div class="masthead-rule-thick"></div>
 
 <div class="layout">
   <details class="mobile-menu">
     <summary>Menu</summary>
     <ul>
-      <li><a href="trump-family.html">Corruption</a></li>
+      <li><a href="trump-family.html">Personal Enrichment</a></li>
       <li><a href="iran-war.html">Iran War</a></li>
       <li><a href="tariffs.html">Tariffs</a></li>
-      <li><a href="ice.html">Immigration</a></li>
+      <li><a href="ice.html">Immigration / ICE</a></li>
       <li><a href="health-care.html">Health Care</a></li>
       <li><a href="measles.html">Measles</a></li>
       <li><a href="criminal-activity.html">Criminal Activity</a></li>
@@ -28,10 +30,10 @@
 
   <nav class="sidebar">
     <ul>
-      <li><a href="trump-family.html">Corruption</a></li>
+      <li><a href="trump-family.html">Personal Enrichment</a></li>
       <li><a href="iran-war.html">Iran War</a></li>
       <li><a href="tariffs.html">Tariffs</a></li>
-      <li><a href="ice.html">Immigration</a></li>
+      <li><a href="ice.html">Immigration / ICE</a></li>
       <li><a href="health-care.html">Health Care</a></li>
       <li><a href="measles.html">Measles</a></li>
       <li><a href="criminal-activity.html">Criminal Activity</a></li>
@@ -41,13 +43,14 @@
   <main class="content">
     <div class="masthead">
       <p>Tracking the corruption, harm, and devastating economic impact of the Trump administration.</p>
-      <span class="asof">Updated daily &middot; last refreshed August 27, 2026</span>
+      <span class="asof">Figures current as of early September 2026 &middot; see each page for exact source dates</span>
     </div>
 
     <div class="grid">
 
-      <a class="tile" href="trump-family.html" style="--accent: var(--series-aqua)">
+      <a class="tile" href="trump-family.html">
         <div class="tile-top">
+          <p class="tile-title">Personal Enrichment</p>
           <p class="tile-label">Today the Trump Family made an average of</p>
           <p class="tile-value">$5.02M</p>
           <div class="tile-total-block">
@@ -62,12 +65,13 @@
         </div>
       </a>
 
-      <a class="tile" href="iran-war.html" style="--accent: var(--series-blue)">
+      <a class="tile" href="iran-war.html">
         <div class="tile-top">
-          <p class="tile-label">Today the Iran War cost you an average of</p>
-          <p class="tile-value">$3.80</p>
+          <p class="tile-title">Iran War</p>
+          <p class="tile-label">Cost to you this month</p>
+          <p class="tile-value">$116</p>
           <div class="tile-total-block">
-            <p class="tile-total-label">Total cost to date</p>
+            <p class="tile-total-label">Total cost to Americans to date</p>
             <p class="tile-total-value">$40 billion</p>
           </div>
         </div>
@@ -77,30 +81,32 @@
         </div>
       </a>
 
-      <a class="tile" href="tariffs.html" style="--accent: var(--series-yellow)">
+      <a class="tile" href="tariffs.html">
         <div class="tile-top">
-          <p class="tile-label">Today Trump's Tariffs cost your household an average of</p>
-          <p class="tile-value">$3.01</p>
+          <p class="tile-title">Tariffs</p>
+          <p class="tile-label">Cost to your household this month</p>
+          <p class="tile-value">$209</p>
           <div class="tile-total-block">
             <p class="tile-total-label">Total household cost in 2026</p>
-            <p class="tile-total-value">$1,100</p>
+            <p class="tile-total-value">$2,511</p>
             <p class="tile-total-label">under the tariffs currently in effect</p>
           </div>
         </div>
         <div class="tile-footer">
           <span class="tile-cta">See the full breakdown &rarr;</span>
-          <span class="tile-source">Source: The Budget Lab at Yale</span>
+          <span class="tile-source">Source: Joint Economic Committee (Democrats)</span>
         </div>
       </a>
 
-      <a class="tile" href="ice.html" style="--accent: var(--series-orange)">
+      <a class="tile" href="ice.html">
         <div class="tile-top">
+          <p class="tile-title">Immigration / ICE</p>
           <p class="tile-label">Today ICE booked into detention approximately</p>
           <p class="tile-value">~1,050 <span style="font-size:22px; font-weight:600;">humans</span></p>
           <p class="tile-value">~226 <span style="font-size:22px; font-weight:600;">are children</span></p>
           <div class="tile-total-block">
-            <p class="tile-label">Total number of people detained</p>
-            <p class="tile-value">60,311</p>
+            <p class="tile-total-label">Total number of people detained</p>
+            <p class="tile-total-value">60,311</p>
           </div>
         </div>
         <div class="tile-footer">
@@ -109,19 +115,25 @@
         </div>
       </a>
 
-      <a class="tile" href="health-care.html" style="--accent: var(--series-violet)">
+      <a class="tile" href="health-care.html">
         <div class="tile-top">
+          <p class="tile-title">Health Care</p>
           <p class="tile-label">Average number of Americans losing health care every day</p>
           <p class="tile-value">~13,700</p>
+          <div class="tile-total-block">
+            <p class="tile-total-label">Total who've lost coverage so far</p>
+            <p class="tile-total-value">~7.0M</p>
+          </div>
         </div>
         <div class="tile-footer">
           <span class="tile-cta">See the full breakdown &rarr;</span>
-          <span class="tile-source">Source: KFF, Medicaid/CHIP Enrollment Tracker</span>
+          <span class="tile-source">Source: Center on Budget and Policy Priorities</span>
         </div>
       </a>
 
-      <a class="tile" href="measles.html" style="--accent: var(--series-red)">
+      <a class="tile" href="measles.html">
         <div class="tile-top">
+          <p class="tile-title">Measles</p>
           <p class="tile-label">Number of deaths from measles since Trump took office in January 2025</p>
           <p class="tile-value">5</p>
           <p class="tile-label" style="margin-top:14px;">Total number of measles cases since January 2025</p>
@@ -134,8 +146,9 @@
         </div>
       </a>
 
-      <a class="tile" href="criminal-activity.html" style="--accent: var(--series-magenta)">
+      <a class="tile" href="criminal-activity.html">
         <div class="tile-top">
+          <p class="tile-title">Criminal Activity</p>
           <p class="tile-label">Tracking the criminal activity of the Trump administration</p>
           <ul class="tile-list">
             <li>Illegal gifts</li>

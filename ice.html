@@ -3,23 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Immigration — Today's Toll</title>
+<title>Immigration / ICE — Today's Toll</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <p class="site-title"><a href="index.html">Today's Toll</a></p>
+  <p class="site-title"><a href="index.html"><span class="word-gray">Today's</span><span class="word-orange">Toll</span></a></p>
 </header>
+<div class="masthead-rule"></div>
+<div class="masthead-rule-thick"></div>
 
 <div class="layout">
   <details class="mobile-menu">
     <summary>Menu</summary>
     <ul>
-      <li><a href="trump-family.html">Corruption</a></li>
+      <li><a href="trump-family.html">Personal Enrichment</a></li>
       <li><a href="iran-war.html">Iran War</a></li>
       <li><a href="tariffs.html">Tariffs</a></li>
-      <li><a href="ice.html">Immigration</a></li>
+      <li><a href="ice.html">Immigration / ICE</a></li>
       <li><a href="health-care.html">Health Care</a></li>
       <li><a href="measles.html">Measles</a></li>
       <li><a href="criminal-activity.html">Criminal Activity</a></li>
@@ -28,10 +30,10 @@
 
   <nav class="sidebar">
     <ul>
-      <li><a href="trump-family.html">Corruption</a></li>
+      <li><a href="trump-family.html">Personal Enrichment</a></li>
       <li><a href="iran-war.html">Iran War</a></li>
       <li><a href="tariffs.html">Tariffs</a></li>
-      <li><a href="ice.html" class="active">Immigration</a></li>
+      <li><a href="ice.html" class="active">Immigration / ICE</a></li>
       <li><a href="health-care.html">Health Care</a></li>
       <li><a href="measles.html">Measles</a></li>
       <li><a href="criminal-activity.html">Criminal Activity</a></li>
@@ -42,42 +44,133 @@
     <div class="wrap-narrow">
       <a class="back-link" href="index.html">&larr; Back to Today's Toll</a>
 
-      <div class="detail-header" style="--accent: var(--series-orange)">
-        <p class="detail-eyebrow">Detention &amp; deportation</p>
-        <h1>Today ICE booked into detention approximately</h1>
-        <p class="detail-value">~1,050 <span style="font-size:17px; font-weight:600;">humans</span></p>
-        <p class="detail-total" style="margin-top:14px;">Of whom an estimated, on an average day</p>
-        <p class="detail-value">~226 <span style="font-size:17px; font-weight:600;">are children</span></p>
-        <p class="detail-total" style="margin-top:14px;">Total number of people currently in ICE custody</p>
-        <p class="detail-value">60,311</p>
+      <div class="topic-header">
+        <h1 class="topic-title">Immigration / ICE</h1>
       </div>
 
-      <p class="section-title">From the source</p>
-      <p class="quote-block">TRAC-based analysis finds ICE interior enforcement book-ins running at roughly 955 per day and CBP book-ins at about 94 per day as of March 2026, while the total detained population peaked at a record 70,766 on January 24, 2026 before declining to 60,311 by April 4, 2026. Separately, reporting on children specifically finds "over 6,200 children have been held by ICE" since Trump's second term began, with the daily average of detained children rising from 24 under the prior administration's final year to about 226 per day &mdash; peaking above 550 in January 2026.</p>
-      <p class="quote-cite">&mdash; TRAC, Syracuse University, <a href="https://tracreports.org/immigration/quickfacts/" target="_blank" rel="noopener">Immigration Detention Quick Facts</a>; The Marshall Project, <a href="https://www.themarshallproject.org/2026/04/06/ice-kids-detention-over-6200-trump" target="_blank" rel="noopener">"Trump Has Put 500 Babies and Toddlers In Immigration Jails"</a></p>
-
-      <p class="section-title">Additional sources</p>
-      <ul class="source-list">
-        <li>
-          <a href="https://www.vera.org/ice-detention-trends" target="_blank" rel="noopener">Vera Institute of Justice: ICE Detention Trends</a>
-          <p>A dashboard tracking total population, average length of stay, and book-in rates over time.</p>
-        </li>
-        <li>
-          <a href="https://edsource.org/2026/trump-california-child-detentions/762148" target="_blank" rel="noopener">EdSource: ICE Has Detained More Than 650 Children in California</a>
-          <p>State-level reporting on child detentions and the effect on schools and families.</p>
-        </li>
-        <li>
-          <a href="https://www.ice.gov/statistics" target="_blank" rel="noopener">ICE Enforcement and Removal Operations Statistics (official)</a>
-          <p>The agency's own published statistics, useful for comparison against independent analyses.</p>
-        </li>
-      </ul>
-
-      <div class="methodology">
-        <strong>Methodology.</strong> The book-in average combines the most recently published ICE interior enforcement and CBP daily rates (March 2026). The children figure is the Marshall Project's own calculated daily average of children detained since the start of the current administration. The total-in-custody figure is TRAC's most recent published snapshot; none of these sources currently publish a literal same-day count, so all figures here are the latest available rather than real-time.
+      <div class="stat-row cols-3">
+        <div class="stat-card">
+          <p class="stat-num">~1,050</p>
+          <p class="stat-label">People booked into detention today</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-num">~226</p>
+          <p class="stat-label">Are children</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-num">60,311</p>
+          <p class="stat-label">Total number of people detained</p>
+        </div>
       </div>
+
+      <section class="block">
+        <h2 class="block-title">Why should I care?</h2>
+        <p class="body-copy">The Trump administration says this is about deporting criminals. The data says otherwise: 73% of people in detention have no criminal conviction — only 5% have a violent one. Courts have repeatedly found the administration is breaking the law to make that happen: as of August 2026, eight federal appeals courts — most recently the Third Circuit — have ruled that ICE can't lock people up for months or years with no hearing at all. Detained children are supposed to be protected by a binding 1997 court settlement requiring humane treatment and family reunification; the administration tried to end that settlement outright, and a federal judge refused, ruling the government hadn't even met its existing obligations. And 2025 was the deadliest stretch in ICE custody in almost two decades — worse than 2020, when COVID-19 swept through detention facilities.</p>
+      </section>
+
+      <blockquote class="pullquote">
+        <p>"Because their detentions without hearings violated the Immigration and Nationality Act and due process, we will affirm."</p>
+        <cite>— Judge Patty Shwartz, U.S. Court of Appeals for the Third Circuit, ruling ICE's mandatory-detention policy unlawful, August 28, 2026</cite>
+      </blockquote>
+
+      <p class="context-note"><b>What's a "bond hearing," and why does this ruling matter?</b> Normally, someone ICE detains can ask a judge for a bond hearing — a chance to argue they should be released while their immigration case plays out. In 2025 the administration adopted a policy denying that hearing altogether to certain immigrants, meaning they could be held for months or years with no chance to make their case. This is now the eighth federal appeals court to say that policy is illegal — a violation of both immigration law and the Constitution's due-process protections. The administration is expected to keep appealing, possibly to the Supreme Court.</p>
+
+      <section class="block">
+        <h2 class="block-title">The receipts</h2>
+        <p class="body-copy">Two separate, independently documented pictures of what's actually happening inside detention: who's really in custody, and how many are dying.</p>
+
+        <div class="tabs" role="tablist">
+          <button class="tab-btn active" data-tab="whos-detained">Who's Actually Detained</button>
+          <button class="tab-btn" data-tab="deaths">Deaths in Custody</button>
+        </div>
+
+        <div class="tab-panel active" data-panel="whos-detained">
+          <div class="table-controls">
+            <input class="search-input" type="text" placeholder="Search…" data-filter-for="whos-detained">
+            <span class="row-count" data-count-for="whos-detained">3 items</span>
+          </div>
+          <div class="table-wrap" data-table="whos-detained">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th data-sort="text">Category</th>
+                  <th class="amount-col" data-sort="amount">Share</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>No criminal conviction</td><td class="amount-col" data-value="73">73%</td></tr>
+                <tr><td>Non-violent criminal conviction</td><td class="amount-col" data-value="22">~22%</td></tr>
+                <tr><td>Violent criminal conviction</td><td class="amount-col" data-value="5">5%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size: 11.5px; color: var(--text-muted); margin: 10px 2px 0; line-height: 1.5;">Based on people booked into ICE custody since October 2025 (Cato Institute analysis of ICE's own data). The 22% non-violent figure is the remainder after no-conviction and violent-conviction shares — not stated as its own number in the source.</p>
+        </div>
+
+        <div class="tab-panel" data-panel="deaths">
+          <div class="table-controls">
+            <input class="search-input" type="text" placeholder="Search…" data-filter-for="deaths">
+            <span class="row-count" data-count-for="deaths">2 items</span>
+          </div>
+          <div class="table-wrap" data-table="deaths">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th data-sort="text">Category</th>
+                  <th class="amount-col" data-sort="amount">Deaths</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Died in ICE custody</td><td class="amount-col" data-value="52">52</td></tr>
+                <tr><td>Killed by immigration agents, not in custody (shootings during arrests, raids, and pursuits)</td><td class="amount-col" data-value="11">11</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size: 11.5px; color: var(--text-muted); margin: 10px 2px 0; line-height: 1.5;">Both figures are since Jan. 20, 2025, through the most recent available data. Custody deaths from Human Rights Watch, compiled from ICE's own death-report records, FOIA requests, and family interviews; ICE's own public reporting lags for months, so the true total today is very likely higher. Agent-shooting deaths from a running, incident-by-incident tally sourced to wire-service and local reporting (AP, NYT, WSJ, and others) on each case; both figures are floors, not ceilings.</p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Sources</h2>
+        <div class="source-list">
+          <div class="source-card">
+            <a class="source-title" href="https://tracreports.org/immigration/quickfacts/" target="_blank" rel="noopener">TRAC, Syracuse University: Immigration Detention Quick Facts</a>
+            <p>Source for the daily booking average and the 60,311 total-detained figure in the stat cards above.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://www.themarshallproject.org/2026/04/06/ice-kids-detention-over-6200-trump" target="_blank" rel="noopener">The Marshall Project: "Trump Has Put 500 Babies and Toddlers In Immigration Jails"</a>
+            <p>Source for the ~226 children detained per day figure.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://www.cato.org/blog/5-ice-detainees-have-violent-convictions-73-no-convictions" target="_blank" rel="noopener">Cato Institute: 5% of People Detained By ICE Have Violent Convictions, 73% No Convictions</a>
+            <p>David J. Bier, November 24, 2025. Source for the conviction-status breakdown.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://www2.ca3.uscourts.gov/opinarch/261150p.pdf" target="_blank" rel="noopener">U.S. Court of Appeals for the Third Circuit: Buele Morocho v. Warden Philadelphia FDC (opinion)</a>
+            <p>Judge Patty Shwartz, August 28, 2026. Source for the pull-quote above and the ruling that ICE's no-bond-hearing policy is unlawful.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://www.hrw.org/report/2026/06/25/dying-in-detention/rising-deaths-in-an-expanding-us-immigration-detention-system" target="_blank" rel="noopener">Human Rights Watch: Dying in Detention — Rising Deaths in an Expanding US Immigration Detention System</a>
+            <p>June 25, 2026. Source for the 52 in-custody death count and the "deadliest in decades" comparison in the paragraph above.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://en.wikipedia.org/wiki/List_of_shootings_by_U.S._immigration_agents_in_the_second_Trump_administration" target="_blank" rel="noopener">List of Shootings by U.S. Immigration Agents in the Second Trump Administration</a>
+            <p>Updated through July 2026. A running, incident-by-incident tally sourced to AP, NYT, WSJ, and local reporting. Source for the 11 agent-shooting deaths, not in custody.</p>
+          </div>
+          <div class="source-card">
+            <a class="source-title" href="https://youthlaw.org/news/federal-court-rejects-governments-attempt-end-flores-settlement-agreement-preserving-vital" target="_blank" rel="noopener">National Center for Youth Law: Federal Court Rejects Government's Attempt to End Flores Settlement Agreement</a>
+            <p>Source for Judge Gee's ruling on the Flores Settlement, August 15, 2025.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="note">
+        <strong>Methodology.</strong> The booking average combines the most recently published ICE interior enforcement and CBP daily rates; none of these sources currently publish a literal same-day count, so figures here are the latest available rather than real-time. Death counts are shown as two separate lines — total deaths in custody (Human Rights Watch) and total killed by agents outside custody (a separately sourced running tally) — rather than a single stacked figure, since the two are documented differently and shouldn't be added together without care.
+      </footer>
     </div>
   </main>
 </div>
 
+<script src="site.js"></script>
 </body>
 </html>
