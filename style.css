@@ -225,13 +225,10 @@ body {
   line-height: 1.5;
 }
 .asof {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 13px;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 10px;
+  margin: 4px 0 0;
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.5;
 }
 
 /* ---------- Tile grid (homepage) ---------- */
@@ -281,7 +278,7 @@ a.tile:hover {
 }
 
 .tile-value {
-  font-size: 42px;
+  font-size: 27px;
   font-weight: 700;
   line-height: 1.1;
   margin: 0 0 6px;
@@ -332,7 +329,7 @@ a.tile:hover {
   line-height: 1.4;
 }
 .tile-total-value {
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 2px 0;
